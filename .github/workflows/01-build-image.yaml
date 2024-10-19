@@ -69,10 +69,3 @@ jobs:
             - auto-pr
           draft: false
           allow_no_diff: false
-
-------------------------------
-git add -A
-git commit -m "ci: create build workflow"
-
--------
-git push --set-upstream origin develop
